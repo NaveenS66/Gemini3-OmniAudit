@@ -9,7 +9,7 @@ Most AI applications focus on simple recognition (OCR) or basic chat. **Omni-Aud
 - **Physical Safety Logic:** Understands the "cause-and-effect" of physical hazards, such as the dangers of daisy-chaining electrical outlets.
 - **Mechanical/Structural Logic:** Detects lethal mechanical errors (e.g., improper car jack placement) by reasoning about material physics and intent.
 - **UX/Design Audit:** Identifies violations of human mental models in spatial design (e.g., illogical elevator button layouts).
-
+and many more ..
 ## 🛠️ Technical Stack
 - **Model:** `gemini-3-flash-preview` (v1beta API)
 - **Interface:** Streamlit (Python)
