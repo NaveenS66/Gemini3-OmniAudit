@@ -9,8 +9,6 @@ st.title("🛡️ Gemini 3: Omni-Audit")
 st.write("Real-time Multimodal Reasoning & Safety Auditor")
 
 # --- API KEY LOGIC ---
-# This checks Streamlit Secrets first, then the Sidebar
-api_key = st.secrets.get("GEMINI_API_KEY") or st.sidebar.text_input("Enter Gemini API Key", type="password")
 
 if api_key:
     try:
@@ -46,5 +44,6 @@ if api_key:
     except Exception as e:
         st.error(f"An error occurred: {e}")
         
+
 
 
