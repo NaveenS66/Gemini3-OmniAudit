@@ -45,6 +45,6 @@ if api_key:
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
-        st.info("Check if your API Key is valid and has access to Gemini 3.")
-else:
-    st.warning("Please enter your API Key in the sidebar (or add it to Streamlit Secrets) to start.")
+        
+
+
