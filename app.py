@@ -10,12 +10,6 @@ st.write("Real-time Multimodal Reasoning & Safety Auditor")
 
 # --- API KEY LOGIC ---
 
-if api_key:
-    try:
-        # Configure the API
-        genai.configure(api_key=api_key)
-        # Using the flagship Gemini 3 model
-        model = genai.GenerativeModel('gemini-3-flash-preview')
 
         # --- UI FOR UPLOAD ---
         uploaded_file = st.file_uploader("Upload a scenario (Image) to Audit...", type=["jpg", "jpeg", "png"])
@@ -44,6 +38,7 @@ if api_key:
     except Exception as e:
         st.error(f"An error occurred: {e}")
         
+
 
 
 
