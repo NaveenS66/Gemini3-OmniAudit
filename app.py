@@ -8,11 +8,12 @@ st.set_page_config(page_title="Gemini 3 Omni-Audit", layout="wide")
 st.title("🛡️ Gemini 3: Omni-Audit")
 st.write("Real-time Multimodal Reasoning & Safety Auditor")
 
+
 # --- API KEY LOGIC ---
 
 
         # --- UI FOR UPLOAD ---
-        uploaded_file = st.file_uploader("Upload a scenario (Image) to Audit...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload a scenario (Image) to Audit...", type=["jpg", "jpeg", "png"])
         
         if uploaded_file is not None:
             image = Image.open(uploaded_file)
@@ -38,6 +39,7 @@ st.write("Real-time Multimodal Reasoning & Safety Auditor")
     except Exception as e:
         st.error(f"An error occurred: {e}")
         
+
 
 
 
