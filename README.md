@@ -18,7 +18,7 @@ and many more ..
 1. Clone the repository: `git clone https://github.com/NaveenS66/Gemini3-OmniAudit`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `streamlit run app.py`
-4. The app will prioritize Streamlit Secrets; otherwise, enter your Gemini API Key in the sidebar.
+
 
 ## 🏆 Why Gemini 3?
 Omni-Audit relies on the **Advanced Reasoning Kernels** unique to the Gemini 3 family. Previous models could identify objects but often failed to link them logically to safety standards or future-dated events. Gemini 3 provides the "System 2" thinking necessary for high-stakes auditing.
